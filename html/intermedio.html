@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intermedio</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+ <div class="game-cont">
+    <div class="game">
+      <div class="manzanas"></div>
+      <div class="linea"></div>
+      <div id="cesta" class="cesta"></div>
+    </div>
+
+    <div class="info">
+      <div>
+        <h2>Información</h2>
+        <h3>NIVEL INTERMEDIO</h3>
+        <div class="puntos">Atrapado: <strong id="puntos">0</strong></div>
+        <div class="puntos">Perdidas: <strong id="perdidas">0</strong></div>
+        <div class="puntos">Vidas: <strong id="vidas">❤️❤️❤️</strong></div>
+        <p>Atrapa las manzanas antes de que caigan.</p>
+      </div>
+
+      <div id="game-container">
+        <h2>Tiempo restante: <span id="times">30</span> s</h2>
+      </div>
+
+      <div class="botones">
+        <button id="reiniciar">Inicio</button>
+        <button id="fin">Finalizar</button>
+      </div>
+    </div>
+  </div>
+
+  <audio id="audioPillar" src="../audio/pillar.mp3" preload="auto"></audio>
+  <audio id="audioPerder" src="../audio/perder.mp3" preload="auto"></audio>
+  <audio id="gameOver" src="../audio/gameOver.mp3" preload="auto"></audio>
+
+
+<script src="../js/intermedio.js"></script>
+</body>
+</html>
