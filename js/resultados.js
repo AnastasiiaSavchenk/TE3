@@ -13,8 +13,6 @@ document.getElementById('salir').addEventListener('click', () => {
 
 if (puntos >= 5) {
     mensajeFinal.textContent = "🏆 ¡Victoria! Eres un maestro atrapando manzanas 🍎";
-  } else if (puntos >= 0) {
-    mensajeFinal.textContent = "🙂 ¡Buen intento! Puedes hacerlo mejor 🍏";
   } else {
     mensajeFinal.textContent = "💀 ¡Derrota! Se te escaparon muchas manzanas 😢";
   }
